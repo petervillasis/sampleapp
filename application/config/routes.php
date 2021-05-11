@@ -50,6 +50,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['employee'] = 'modules/employee';
+$route['companyinfo'] = 'modules/companyinfo';
+$route['leavesetup'] = 'modules/leavesetup';
+$route['ratesetup'] = 'modules/ratesetup';
+$route['allowancesetup'] = 'modules/allowancesetup';
+$route['schedulesetup'] = 'modules/schedulesetup';
+$route['batchsetup'] = 'modules/batchsetup';
+$route['ipaddress'] = 'modules/ipaddress';
+$route['deductionsetup'] = 'modules/deductionsetup';
+$route['timecard'] = 'modules/timecard';
+$route['payrollsetup'] = 'modules/payrollsetup';
 
 $route['default_controller'] = 'modules/loadpage';
 $route['404_override'] = '';
